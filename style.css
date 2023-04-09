@@ -1,0 +1,64 @@
+
+.navbar{
+    color: white;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(68 70 84); /* Adjust the opacity as needed */
+    z-index: 9999; /* Set a high z-index to ensure it's on top of other elements */
+    /* pointer-events: none; Disable pointer events on the overlay so that it doesn't interfere with interactions on underlying elements */
+  }
+  
+
+.container{
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set container height to full viewport height */
+}
+
+#copy{
+    border-radius: 20px;
+}
+
+
+.card{
+
+
+    box-shadow: 0px 0px 10px 10px #0d6efd ;
+    border: 2px solid black;
+    border-top: 0px;
+}
+
+.card-body{
+    
+    text-align: center;
+    background-color: rgb(68 70 84);
+}
+
+#heading{
+    color: white;
+    box-shadow: 0px 4px 5px 10px #0d6efd;
+    background-color: #0d6efd;
+    text-align: center;
+}
+
+
+.button-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent buttons from wrapping to a new line */
+    justify-content: center; /* Center align buttons horizontally */
+    align-items: center; /* Center align buttons vertically */
+  }
+  
+  #data {
+    border: 3px solid black;
+    border-radius: 13px;
+    flex: 1; /* Flex grow property to allow buttons to occupy available space evenly */
+  }
